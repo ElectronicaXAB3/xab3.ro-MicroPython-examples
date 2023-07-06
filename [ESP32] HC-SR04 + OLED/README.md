@@ -27,6 +27,9 @@ Proiectul are scopul de a masura distanta dintre senzor si un obiect si afisarea
 - Wi-Fi: 802.11 b/g/n
 - Power: 5uA deep sleep
 
+## Poza proiect
+<img src="images/hcsr04.jpg" height="512" widt="1024">
+
 ## Link Resurse
 HC-SR04 | OLED I2C | ESP32
 --- | --- | ---
