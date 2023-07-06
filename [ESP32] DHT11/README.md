@@ -29,7 +29,7 @@ Comunicare | 1 fir digital | 1 fir digital
 - Interfață: I2C
 
 ## Poza proiect
-![](images/dht11.jpg)
+<img src="images/dht11.jpg" height="512" widt="1024">
 
 ## Link resurse
 - [DHT11](https://www.xab3.ro/produse/modul-electronic-cu-senzor-dht-11)
