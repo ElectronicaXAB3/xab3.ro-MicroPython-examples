@@ -10,7 +10,7 @@ display = ssd1306.SSD1306_I2C(128, 64, i2c) #initializare display
 
 def show(dist): #functie pentru afisarea datelor pe display
     display.fill(0) #clear la toate datele afisate anterior
-    display.text("Distanta: " + str(dist) + " cm", 0, 0, 2) #scriere pe display
+    display.text("Distanta: " + str(dist) + " cm", 0, 0, 1) #scriere pe display --- text(txt, x, y, color)
     display.show() #afisare
 
 def main(timer):

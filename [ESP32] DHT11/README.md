@@ -28,6 +28,9 @@ Comunicare | 1 fir digital | 1 fir digital
 - Luiminozitate(cd/m2): 150(Typ) @ 7.25V
 - Interfață: I2C
 
+## Poza proiect
+![](images/dht11.jpg)
+
 ## Link resurse
 - [DHT11](https://www.xab3.ro/produse/modul-electronic-cu-senzor-dht-11)
 - [ESP32](https://www.xab3.ro/produse/esp32-devkit-wh)

@@ -37,7 +37,7 @@ while not wifi.isconnected(): #Incercare de conectare la wifi
 print("Conectare reusita.\nIP: ", wifi.ifconfig()) #Afisare mesaj si IP, in cazul in care conexiunea a reusit
 
 
-blynk = blynklib.Blynk(blynk_token, insecure=True) #initializare blynk
+blynk = blynklib.Blynk(blynk_token) #initializare blynk
 
 def sensor_write():
     value = sensor.value() #citire valoare digitala => 1 = gaz nedetectat, 0 = gaz detectat
