@@ -6,8 +6,8 @@ from servo import Servo
 
 
 # configurari WiFi
-wifi_ssid = "Rasty_Home_IPH"
-wifi_password = "hex12300"
+wifi_ssid = ""
+wifi_password = ""
 
 if len(wifi_ssid) == 0 or len(wifi_password) == 0: #verificare daca datele pentru wifi sunt completate
     print("!!! wifi_ssid sau wifi_password nu trebuie sa fie goale.")
@@ -15,7 +15,7 @@ if len(wifi_ssid) == 0 or len(wifi_password) == 0: #verificare daca datele pentr
         pass
 
 #configurare platforma Blynk
-blynk_token = 'xpph8UwjDK9ArQ2YkubAOsKr1xREsXCY'
+blynk_token = ''
 if len(blynk_token) == 0: #verificare daca datele pentru wifi sunt completate
     print("!!! blynk_token nu trebuie sa fie gol.")
     while True:

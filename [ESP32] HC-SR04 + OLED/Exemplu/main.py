@@ -14,7 +14,7 @@ def show(dist): #functie pentru afisarea datelor pe display
     display.show() #afisare
 
 def main(timer):
-    distance = senzor.distance_cm()
-    show(int(distance))
+    distance = senzor.distance_cm() #calcularea distantei
+    show(int(distance)) #afisarea distantei pe OLED
 
 timer.init(freq=2, mode=Timer.PERIODIC, callback=main) #initializare loop pentru functia main()
