@@ -28,15 +28,15 @@ Comunicare | 1 fir digital | 1 fir digital
 - Luiminozitate(cd/m2): 150(Typ) @ 7.25V
 - Interfață: I2C
 
+## Poza proiect
+<img src="images/dht11.jpg" height="512" widt="1024">
+
 ### Pin wiring
 
 DHT11 | OLED
 --- | ---
 **OUT**: GPIO 14 | **SDA**: GPIO 4
 &nbsp; | **SCL**: GPIO 5
-
-## Poza proiect
-<img src="images/dht11.jpg" height="512" widt="1024">
 
 ## Link resurse
 - [DHT11](https://www.xab3.ro/produse/modul-electronic-cu-senzor-dht-11)
