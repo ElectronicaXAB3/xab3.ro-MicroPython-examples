@@ -28,6 +28,13 @@ Comunicare | 1 fir digital | 1 fir digital
 - Luiminozitate(cd/m2): 150(Typ) @ 7.25V
 - Interfață: I2C
 
+### Pin wiring
+
+DHT11 | OLED
+--- | ---
+**OUT**: GPIO 14 | **SDA**: GPIO 4
+&nbsp; | **SCL**: GPIO 5
+
 ## Poza proiect
 <img src="images/dht11.jpg" height="512" widt="1024">
 

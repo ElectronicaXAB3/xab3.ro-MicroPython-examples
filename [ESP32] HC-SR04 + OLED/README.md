@@ -30,6 +30,13 @@ Proiectul are scopul de a masura distanta dintre senzor si un obiect si afisarea
 ## Poza proiect
 <img src="images/hcsr04.jpg" height="512" widt="1024">
 
+### Pin wirings
+
+HC-SR04 | OLED
+--- | ---
+**Trig Pin**: GPIO 22 | **SDA**: GPIO 4
+**Echo Pin**: GPIO 23 | **SCL**: GPIO 5
+
 ## Link Resurse
 HC-SR04 | OLED I2C | ESP32
 --- | --- | ---
