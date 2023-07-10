@@ -48,6 +48,5 @@ while True:
         dht11.measure() #masurare umiditate si temperatura
         blynk.virtual_write(blynk_pin_temp, dht11.temperature()) #afisare temperatura pe virtual pin 0
         blynk.virtual_write(blynk_pin_hum, dht11.humidity()) #afisare umiditate pe virtual pin 2
-        
-    except:
+    except OSError: #desi datele erau afisate corect, libraria DHT (inclusa in micropython) dadea exceptie
         pass

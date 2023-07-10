@@ -21,7 +21,7 @@ if len(blynk_token) == 0: #verificare daca datele pentru wifi sunt completate
     while True:
         pass
 
-blynk_pin_sensor = 0 #virtual pin 1
+blynk_pin_sensor = 0 #virtual pin 0
 
 sensor_pin = Pin(32) #definire sensor pe pin 4
 adc = ADC(sensor_pin) #initializare ADC pe sensor

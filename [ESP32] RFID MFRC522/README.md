@@ -20,7 +20,7 @@ Programul, scris in Micropython, are rolul de a citi tagurile si de a verifica d
 - Dimensiune cablaj: 40x60mm
 
 ## Observatii
-Libraria mentionata in [Link resurse](#link-resurse) a fost putin modificata in exemplu, pentru a rula pe platforma ESP32. Mai precis, expresia din structura `elif board == 'esp8266'` a fost modificata in `elif board == 'esp8266' or board == 'esp32'`. Clasa MFRC522 functioneaza atat pentru platforma ESP8266, cat si pentru ESP32, asadar nu exista nicio problema pentru folosirea librariei pe aceasta platforma de dezvoltare.
+Libraria mentionata mai jos, in **Link resurse**, a fost putin modificata in exemplu, pentru a rula pe platforma ESP32. Mai precis, expresia din structura `elif board == 'esp8266'` a fost modificata in `elif board == 'esp8266' or board == 'esp32'`. Clasa MFRC522 functioneaza atat pentru platforma ESP8266, cat si pentru ESP32, asadar nu exista nicio problema pentru folosirea librariei pe aceasta platforma de dezvoltare.
 
 ## Link resurse
 - [ESP32](https://www.xab3.ro/produse/esp32-devkit-wh)

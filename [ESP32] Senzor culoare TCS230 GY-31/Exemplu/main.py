@@ -45,7 +45,7 @@ def read_color(color): #functie pentru citirea frecventelor unei culori
 
 def main():
     color = (255,255,255)
-    for _ in range(3): #minimul de frecventa a 3 citiri
+    for _ in range(5): #minimul de frecventa a 3 citiri
         red = read_color("red") #citire red
         time.sleep(0.1)
         green = read_color("green") #citire green

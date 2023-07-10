@@ -16,7 +16,10 @@ def show(temp, hum): #functie pentru afisarea datelor pe display
     display.show() #afisare
 
 def main(timer):
-    dht11.measure() #masurare date de pe DHT11/DHT22
+    try:
+        dht11.measure() #masurare date de pe DHT11/DHT22
+    except OSError: #desi datele erau afisate corect, libraria DHT (inclusa in micropython) dadea exceptie
+        pass
     temp = dht11.temperature() #obtinere date temperatura
     hum = dht11.humidity() #obtinere date umiditate
     show(temp, hum) #afisare temperatura si umiditate pe display
